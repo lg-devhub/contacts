@@ -186,17 +186,50 @@ p{
         z-index: -10;
     }
 
-    
-    
-
-
-
-
-
-
 }
+    
+    @media (max-width:540px){
 
 
+        .fa-brands{
+            font-size: 62px;
+        }
+
+        #icons{
+            flex-direction: column;
+            padding-bottom: 30%;
+            align-items: center;
+            width: 100%;
+            padding: 0;
+            padding-bottom: 20%;
+        }
+
+        #icons p{
+            font-size: 17px;
+        }
+
+        .fa-brands{
+            font-size: 58px;
+        }
+
+        .container{
+            padding: 0;
+            padding-left: 3%;
+            width: 400px;
+        }
+
+        .container p{
+            width: 300px;
+        }
+        
+        body{
+            overflow-y: scroll;
+        }
+    }
+
+
+
+    
 
 
 
