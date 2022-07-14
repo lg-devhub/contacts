@@ -35,9 +35,6 @@
 
 
 
-html{
-    display: flex;
-}
 
 
 
@@ -175,6 +172,7 @@ p{
     body{
         flex-direction: column;
         overflow-y: scroll;
+        zoom: -1.0%;
     }
 
     #icons{
@@ -190,7 +188,7 @@ p{
     }
 
     
-
+    
 
 
 
