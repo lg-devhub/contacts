@@ -35,7 +35,9 @@
 
 
 
-
+html{
+    display: flex;
+}
 
 
 
