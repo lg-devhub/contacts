@@ -188,7 +188,7 @@ p{
     }
 
     html{
-        zoom: calc(100% - 100%);
+        zoom: 0;
     }
 
 
