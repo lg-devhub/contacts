@@ -187,8 +187,8 @@ p{
         z-index: -10;
     }
 
-    body{
-        zoom: normal;
+    html{
+        zoom: 2;;
     }
 
 
