@@ -172,7 +172,7 @@ p{
     body{
         flex-direction: column;
         overflow-y: scroll;
-        zoom: -1.0%;
+        zoom: -1.0;
     }
 
     #icons{
