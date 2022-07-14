@@ -145,8 +145,11 @@ p{
     .container{
         justify-content: flex-start;
         padding-top: 20%;
-        
     }    
+
+    body{
+        overflow-x: hidden;
+    }
 }
 
 @media (max-width:1400px){
@@ -190,6 +193,7 @@ p{
 
     body{
         overflow-y: scroll;
+        height: 860px;
     }
 
     .container{
@@ -209,6 +213,71 @@ p{
     }
 }
 
+@media (max-width:700px){
+    h1{
+        font-size: 42px;
+    }
+
+    p{
+        font-size: 22px;
+    }
+
+    #icons{
+        padding: 0;
+        align-items:unset;
+        margin: auto;
+        padding-left: 41%;
+    }
+
+}
+
+@media (max-width:650px){
+
+    h1{
+        font-size: 34px;
+    }
+
+    p{
+        font-size: 20px;
+    }
+
+}
+
+@media (max-width:500px){
+
+    #icons{
+        padding: 0;
+        padding-left: 35%;
+    }
+}
+
+@media (max-width:375px){
+    #icons{
+        padding: 0;
+        padding-left: 47%;
+    }
+}
+
+@media (max-width:414px){
+    #icons{
+        padding: 0;
+        padding-left: 39%;
+    }
+}
+
+@media (max-width:393px){
+    #icons {
+        padding: 0;
+        padding-left: 40%;
+    }
+}
+
+@media (max-width:360px){
+    #icons {
+        padding: 0;
+        padding-left: 43%;
+    }
+}
 
 
 
