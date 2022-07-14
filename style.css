@@ -186,8 +186,18 @@ p{
     .bubbles{
         z-index: -10;
     }
-}
 
+    body{
+        zoom: normal;
+    }
+
+
+
+
+
+
+
+}
 
 
 
