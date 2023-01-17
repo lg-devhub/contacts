@@ -1,10 +1,8 @@
 var one = document.getElementById('one');
 var two = document.getElementById('two');
-var three = document.getElementById('three');
 var four = document.getElementById('four');
 var oneo = document.getElementById('oneo');
 var twot = document.getElementById('twot');
-var threet = document.getElementById('threet');
 var fourf = document.getElementById('fourf');
 
 one.addEventListener("mouseover", function(){
@@ -36,30 +34,6 @@ two.addEventListener("mouseout", function(){
     two.style.transform = "scale(1.0)";
     two.style.transition = "0.3s";
 });
-
-
-
-
-
-
-
-three.addEventListener("mouseover", function(){
-    threet.style.color = "#ff2d75";
-    threet.style.transition = "0.4s";
-    three.style.transform = "scale(1.1)";
-    three.style.transition = "0.4s";
-});
-
-three.addEventListener("mouseout", function(){
-    threet.style.color = "white";
-    threet.style.transition = "0.4s";
-    three.style.transform = "scale(1.0)";
-    three.style.transition = "0.3s";
-});
-
-
-
-
 
 
 
